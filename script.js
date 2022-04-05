@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function(){
   inputElement = document.getElementById("myInput");
   executeButton.addEventListener("click", function(){
     generateDessert();
-    changeBackground();
   });
 
 });
