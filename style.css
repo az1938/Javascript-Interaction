@@ -1,0 +1,45 @@
+body {
+  margin: 5vw 10vw 0px 10vw;
+  padding: 0px;
+  background-color: cornsilk;
+  color: rosybrown;
+  font-family: Futara serif;
+  font-size: 2vw;
+  text-align: center;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+input, button {
+  font-size: 2vw;
+}
+
+hr{
+    border-top: 5px dotted pink;
+}
+
+#title {
+ font-family: Arial Rounded MT Bold;
+}
+
+#myInput{
+  color: rosybrown;
+  background-color: white;
+  border-color: pink;
+  border-radius: 0.5vw;
+}
+
+#executeButton{
+  color: rosybrown;
+  background-color: mistyrose;
+  border-color: mistyrose;
+  border-radius: 4vw;
+}
+
+#outputText {
+  background-color: mistyrose;
+  border-radius: 4vw;
+  padding: 2vmin;
+}
