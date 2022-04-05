@@ -34,9 +34,9 @@ function generateDessert(){
 
 function restyleOutput() {
 
-  var randomRed = Math.random() * 255;
-  var randomGreen = Math.random() * 255;
-  var randomBlue = Math.random() * 255;
+  var randomRed = Math.random() * 220;
+  var randomGreen = Math.random() * 220;
+  var randomBlue = Math.random() * 220;
   var outputColorString = "rgb(" + randomRed + "," + randomGreen + "," + randomBlue + ")";
   outputParagraph.style.color = outputColorString;
 
